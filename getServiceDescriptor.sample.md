@@ -1,7 +1,7 @@
 #getServiceDescriptor
 Ritorna `serviceDescriptorType`, il descrittore del servizio specificato nel body della risposta SOAP.
 
-Richiesta SOAP
+###Richiesta SOAP
 ```xml
 <?xml version='1.0' encoding='UTF-8'?>
 <soap-env:Envelope
@@ -25,7 +25,7 @@ Richiesta SOAP
 </soap-env:Envelope>
 ```
 
-Risposta SOAP
+###Risposta SOAP
 ```xml
 <?xml version='1.0' encoding='UTF-8'?>
 <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
