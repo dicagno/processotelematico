@@ -9,6 +9,11 @@ Per `$registro` si intende una stringa composta da:
 1. una parte fissa, `GL_`, che sta per "Gestore Locale"
 2. una parte variabile (ad es. `MI`) che sta per lo specifico gestore (un elenco dei gestori è disponibile ...qui...)
 
+##Parametri della richiesta
+```xml
+<value name="parametro0" type="string">VALORE_DEL_PARAMETRO</value>
+```
+
 ##Richiesta SOAP
 ```xml
 <?xml version='1.0' encoding='UTF-8'?>
