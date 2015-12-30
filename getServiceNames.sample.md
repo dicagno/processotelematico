@@ -2,6 +2,7 @@ L'esempio sottoindicato rappresenta una invocazione del metodo SOAP `getServiceN
 
 ##Richiesta SOAP
 ```xml
+<?xml version='1.0' encoding='UTF-8'?>
 <soap-env:Envelope
     xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
     <soap-env:Header>
