@@ -1,4 +1,4 @@
-#getServiceNames
+#getServiceDescriptor
 Ritorna `serviceDescriptorType`, il descrittore del servizio specificato nel body della risposta SOAP.
 
 ##Richiesta SOAP
