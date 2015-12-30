@@ -1,7 +1,7 @@
 #getServiceNames
 Ritorna un array XML contenente la lista dei nomi dei servizi disponibili per il Gestore Locale (GL) specificato nella URL della richiesta HTTP.
 
-##Richiesta SOAP
+Richiesta SOAP
 ```xml
 <?xml version='1.0' encoding='UTF-8'?>
 <soap-env:Envelope
@@ -24,7 +24,7 @@ Ritorna un array XML contenente la lista dei nomi dei servizi disponibili per il
 </soap-env:Envelope>
 ```
 
-##Risposta SOAP
+Risposta SOAP
 ```xml
 <?xml version='1.0' encoding='UTF-8'?>
 <SOAP-ENV:Envelope
