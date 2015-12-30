@@ -8,6 +8,7 @@ Ritorna un array XML contenente la lista dei nomi dei servizi disponibili per il
     xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
     <soap-env:Header>
         <ws:invocationDomain
+            soap-env:actor="http://schemas.xmlsoap.org/soap/actor/next"
             xmlns:ws="http://www.netserv.it/anag/security"
             soap-env:MustUnderstand="true"
             group="jpwusers"
